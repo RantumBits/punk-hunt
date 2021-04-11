@@ -10,7 +10,7 @@
     @include vendor('transform', 'scale(1.0)');
     -webkit-backface-visibility: hidden;
     overflow: hidden;
-    opacity: .3;
+    opacity: 0;
 
     // div {
       canvas {

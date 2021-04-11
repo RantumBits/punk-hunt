@@ -9,6 +9,15 @@
 div#main {
 	opacity: 0.7;
 }
+
+#main article {
+	background-color: #ff04b4 !important;
+	color: white;
+}
+
+#main article h2.major{border-bottom: solid 1px white;}
+
+#main article h2, #main article .close {color: white;}
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
