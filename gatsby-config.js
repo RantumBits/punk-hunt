@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: 'PunkHunt | Find them All',
     author: '@RantumBits',
-    description: 'Complete all the CryptoPunk challenges during the Miami billboard takeover',
+    description: 'Complete all the PunkHunt challenges during the Miami billboard takeover',
     image: 'src/images/punkhunt_billboard.png',
-    url: 'https://PunkHunt.com'
+    siteUrl: 'https://PunkHunt.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

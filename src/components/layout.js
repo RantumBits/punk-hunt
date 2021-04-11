@@ -35,6 +35,7 @@ const Layout = ({ children, location }) => {
           site {
             siteMetadata {
               title
+              description
             }
           }
         }
@@ -44,8 +45,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={JSONData.Title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'CryptoPunks are taking over the billboards of Miami. Here is your chance to get involved.' },
+            
             ]}
           >
             <html lang="en" />

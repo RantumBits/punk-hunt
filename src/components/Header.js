@@ -43,14 +43,20 @@ const Header = props => (
             )
           })}
         </p>
+
+
       </div>
     </div>
+
+
+
     <nav
       className="backdrop-blur"
       style={{
         backgroundColor: 'rgba(255, 255, 255, 0.9)',
       }}
     >
+
       <ul>
         <li>
           <button
@@ -68,8 +74,27 @@ const Header = props => (
 
 
         </ul>
+
+        <div>
+
+              <div
+                style={{
+                  fontFamily: 'Fira Mono, monospace',
+                  fontWeight: '100',
+                  fontSize: 'small',
+                  letterSpacing: '1px',
+                  'max-width': '600px',
+                  'margin-top': '1em',
+                }}
+              >
+              <p>CryptoPunks are taking over the billboards of Miami. Here's your chance to get involved.</p>
+                <p>Find them and win a prize. To win, post the most selfies on Twitter with you and Cryptopunks on billboards and bus stops across the City. Use both hashtags #punkhunt and #cryptopunks. Good luck.</p>
+              </div>
+
+
+        </div>
           <br/>
-          <h3>Challenges</h3>
+
         <ul>
 
 
@@ -83,63 +108,10 @@ const Header = props => (
               fontWeight: '200',
             }}
           >
-            One
+            Challenge Details
           </button>
         </li>
-        {JSONData.showTalksAndBlogTab && (
-          <li>
-            <button
-              onClick={() => {
-                props.onOpenArticle('two')
-              }}
-              style={{
-                fontFamily: 'Fira Mono, monospace',
-                fontWeight: '200',
-              }}
-            >
-              Two
-            </button>
-          </li>
-        )}
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('three')
-            }}
-            style={{
-              fontFamily: 'Fira Mono, monospace',
-              fontWeight: '200',
-            }}
-          >
-            THREE
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('four')
-            }}
-            style={{
-              fontFamily: 'Fira Mono, monospace',
-              fontWeight: '200',
-            }}
-          >
-            FOUR
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('five')
-            }}
-            style={{
-              fontFamily: 'Fira Mono, monospace',
-              fontWeight: '200',
-            }}
-          >
-            FIVE
-          </button>
-        </li>
+
       </ul>
     </nav>
 

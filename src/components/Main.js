@@ -26,7 +26,7 @@ class Main extends React.Component {
           }`}
           style={{
             display: 'none',
-            height: '90vh',
+            height: '80vh',
             overflow: 'auto',
             scrollbarWidth: 'none',
             msOverflowStyle: 'none',
@@ -88,7 +88,7 @@ class Main extends React.Component {
           }`}
           style={{
             display: 'none',
-            height: '90vh',
+            height: '80vh',
             overflow: 'auto',
             scrollbarWidth: 'none',
             msOverflowStyle: 'none',
@@ -149,7 +149,7 @@ class Main extends React.Component {
           }`}
           style={{
             display: 'none',
-            height: '90vh',
+            height: '80vh',
             overflow: 'auto',
             scrollbarWidth: 'none',
             msOverflowStyle: 'none',
@@ -210,7 +210,7 @@ class Main extends React.Component {
           }`}
           style={{
             display: 'none',
-            height: '90vh',
+            height: '80vh',
             overflow: 'auto',
             scrollbarWidth: 'none',
             msOverflowStyle: 'none',
@@ -271,7 +271,7 @@ class Main extends React.Component {
           }`}
           style={{
             display: 'none',
-            height: '90vh',
+            height: '80vh',
             overflow: 'auto',
             scrollbarWidth: 'none',
             msOverflowStyle: 'none',
@@ -332,7 +332,7 @@ class Main extends React.Component {
           }`}
           style={{
             display: 'none',
-            height: '90vh',
+            height: '80vh',
             overflow: 'auto',
             scrollbarWidth: 'none',
             msOverflowStyle: 'none',
@@ -394,7 +394,7 @@ class Main extends React.Component {
             }`}
             style={{
               display: 'none',
-              height: '90vh',
+              height: '80vh',
               overflow: 'auto',
               scrollbarWidth: 'none',
               msOverflowStyle: 'none',
