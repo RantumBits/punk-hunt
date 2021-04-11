@@ -1,38 +1,44 @@
 {
-  "Title": "Aditya Ketkar | Personal Webpage",
-  "Name": "Aditya Ketkar",
+  "Title": "Punk Hunt | Find them all",
+  "Name": "Punk Hunt",
   "Description": [
-    "SDE @ Microsoft. Recent graduate from BITS Pilani. Passionate about Space Tech, Sports and Startups.",
-    "I grab every chance I get to travel, learn and create."
+    "Find them all",
+    "Miami, April 2021"
   ],
-  "MainImage": "https://i.imgur.com/yQZNGdm.jpg",
+  "MainImage": "https://www.larvalabs.com/public/images/cryptopunks/punk2460.png",
   "BackgroundURL": "",
 
-  "AboutImage": "https://i.imgur.com/5sOLND6.jpg",
+  "AboutImage": "https://cdn.decrypt.co/resize/1400/wp-content/uploads/2021/04/CryptoPunks-gID_2.png",
   "AboutContent": [
-    "I’m a Software Engineer by day, a Table Tennis player by evening, a functional wantrepreneur by midnight and a hustler always.",
-    "If you can’t find me, it’s because I’m already cycling, off to a hike, or cheering for Verstappen",
-    "I am passionate about Space Technology and Human Psychology (though, never studied them formally). A die-hard fan of Elon Musk.",
-    "I love the way the concept of \"work\" has evolved over the past decades, and hence would love to travel and work together whenever I can."
+    "CryptoPunks are taking over the billboards of Miami. Here's your chance to get involved.",
+    "Beginning April 12, CryptoPunks will be displayed on 96 billboards across Miami for one month as part of an exhibition by SaveArtSpace. Earn exclusive rewards by completing 5 Punk Hunt challenges.",
+    "LarvaLabs developed the Punks as an experiement, with randomly generated pixelated punks given away for free in 2017. In April 2021, CryptoPunks are headed to Christies' auction house, and more importantly, are set to take over the billboards of Miami.",
+      "Check the home page for details on all PunkHunt Challenges.",
+      "More Info:"
   ],
 
-  "WorkContent": [
-    "I am currently SDE-1 at Microsoft. I also lead the tech team @ EdMad.co"
+  "OneContent": [
+    "The first challenge will be announced on April 12, 2021."
+
   ],
-  "WorkImage": "https://i.imgur.com/BHt1YKg.png",
+  "TwoContent": [
+    "The second challege will be announced on April 13, 2021."
+
+  ],
+  "WorkImage": "",
   "InternshipsStartLine": "Previously, I have interned with :",
   "InternShips": [
     {
-      "name": "Amazon India",
-      "link": "#"
+      "name": "LarvaLabs",
+      "link": "https://larvalabs.com/cryptopunks"
     },
     {
-      "name": "North-Eastern Space Application Center (ISRO) ↗",
-      "link": "https://drive.google.com/file/d/1fMoF7gUfsow8BxTIK7I7jf9wmq9v7wfq/view"
+      "name": "CryptoPunks at Christies",
+      "link": "https://www.christies.com/features/10-things-to-know-about-CryptoPunks-11569-1.aspx"
     },
     {
-      "name": "Computer Vision Center, Universitat Autonoma de Barcelona  ↗",
-      "link": "https://drive.google.com/file/d/1H9H4ja9TgpxYf4QxSfQH2bCZWyAFYwlC/view?usp=sharing"
+      "name": "SaveArtSpace",
+      "link": "https://www.saveartspace.org/pixelated"
     }
   ],
   "ProjectsStartLine": "Some of my other works can be found here :",
@@ -59,7 +65,7 @@
     }
   ],
   "showTalksAndBlogTab": true,
-  "TalksAndBlogsTopContent": "I actively attend events to gain and share my knowledge. If you have an event/talk/panel which I can be a part of in any way (to 🗣 or 👂 or both), feel free to reach out at adityaketkar848[ at ]gmail[ dot ]com",
+  "TalksAndBlogsTopContent": "this here",
   "TalkIntroLine": "",
   "Talks": [
     {

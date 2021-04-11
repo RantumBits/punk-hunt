@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Aditya Ketkar | Personal Webpage',
-    author: 'Aditya Ketkar',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    title: 'PunkHunt | Find them All',
+    author: 'RantumBits @ecomloop',
+    description: 'Complete all the CryptoPunk challenges during the Miami billboard takeover',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

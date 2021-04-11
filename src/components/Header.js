@@ -19,8 +19,9 @@ const Header = props => (
       <div className="inner backdrop-blur">
         <h1
           style={{
-            fontFamily: 'Open Sans, sans-serif',
-            fontWeight: '300',
+            fontFamily: 'Montserrat, sans-serif',
+            fontWeight: '600',
+            color: '#ff04b4',
           }}
         >
           {JSONData.Name}
@@ -61,9 +62,17 @@ const Header = props => (
               fontWeight: '200',
             }}
           >
-            About Me
+            What is Punk Hunt?
           </button>
         </li>
+
+
+        </ul>
+          <br/>
+          <h3>Challenges</h3>
+        <ul>
+
+
         <li>
           <button
             onClick={() => {
@@ -74,52 +83,70 @@ const Header = props => (
               fontWeight: '200',
             }}
           >
-            Work
+            One
           </button>
         </li>
         {JSONData.showTalksAndBlogTab && (
           <li>
             <button
               onClick={() => {
-                props.onOpenArticle('talks')
+                props.onOpenArticle('two')
               }}
               style={{
                 fontFamily: 'Fira Mono, monospace',
                 fontWeight: '200',
               }}
             >
-              Talks+Blogs
+              Two
             </button>
           </li>
         )}
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('three')
             }}
             style={{
               fontFamily: 'Fira Mono, monospace',
               fontWeight: '200',
             }}
           >
-            CV
+            THREE
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('contact')
+              props.onOpenArticle('four')
             }}
             style={{
               fontFamily: 'Fira Mono, monospace',
               fontWeight: '200',
             }}
           >
-            Connect
+            FOUR
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('five')
+            }}
+            style={{
+              fontFamily: 'Fira Mono, monospace',
+              fontWeight: '200',
+            }}
+          >
+            FIVE
           </button>
         </li>
       </ul>
     </nav>
+
+
+
+
+
   </header>
 )
 

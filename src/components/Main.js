@@ -32,7 +32,7 @@ class Main extends React.Component {
             msOverflowStyle: 'none',
           }}
         >
-          <h2 className="major">About Me</h2>
+          <h2 className="major">Punk Hunt </h2>
           <span className="image main">
             <div>
               <img src={JSONData.AboutImage} alt="" />
@@ -43,7 +43,7 @@ class Main extends React.Component {
             return (
               <div
                 style={{
-                  fontFamily: 'Open Sans, sans-serif',
+
                   fontWeight: '400',
                   fontSize: 'medium',
                   lineHeight: '1.5',
@@ -54,6 +54,25 @@ class Main extends React.Component {
               </div>
             )
           })}
+          <br/>
+          <ul>
+            {JSONData.InternShips.map(item => {
+              return (
+                <li
+                  style={{
+
+                    fontWeight: '400',
+                    fontSize: 'medium',
+                    lineHeight: '1.5',
+                  }}
+                >
+                  <a target="_blank" href={item.link}>
+                    {item.name}
+                  </a>
+                </li>
+              )
+            })}
+          </ul>
           {/* </p> */}
           {/* not visible in gatsby build */}
           {close}
@@ -75,14 +94,14 @@ class Main extends React.Component {
             msOverflowStyle: 'none',
           }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Challenge One</h2>
           <span className="image main">
             <img src={JSONData.WorkImage} alt="" />
           </span>
 
           <div
             style={{
-              fontFamily: 'Open Sans, sans-serif',
+
               fontWeight: '400',
               fontSize: 'medium',
               lineHeight: '1.5',
@@ -93,60 +112,273 @@ class Main extends React.Component {
           <br />
           <div
             style={{
-              fontFamily: 'Open Sans, sans-serif',
+
               fontWeight: '400',
               fontSize: 'medium',
               lineHeight: '1.5',
             }}
           >
-            {JSONData.InternshipsStartLine}
+
           </div>
-          <ul>
-            {JSONData.InternShips.map(item => {
-              return (
-                <li
-                  style={{
-                    fontFamily: 'Open Sans, sans-serif',
-                    fontWeight: '400',
-                    fontSize: 'medium',
-                    lineHeight: '1.5',
-                  }}
-                >
-                  <a target="_blank" href={item.link}>
-                    {item.name}
-                  </a>
-                </li>
-              )
-            })}
-          </ul>
+
           <div
             style={{
-              fontFamily: 'Open Sans, sans-serif',
+
               fontWeight: '400',
               fontSize: 'medium',
               lineHeight: '1.5',
             }}
           >
-            {JSONData.ProjectsStartLine}
+
+    The first challege will be announced on April 12, 2021.
+
+
           </div>
-          <ul>
-            {JSONData.Projects.map(item => {
-              return (
-                <li
-                  style={{
-                    fontFamily: 'Open Sans, sans-serif',
-                    fontWeight: '400',
-                    fontSize: 'medium',
-                    lineHeight: '1.5',
-                  }}
-                >
-                  <a target="_blank" href={item.link}>
-                    {item.name}
-                  </a>
-                </li>
-              )
-            })}
-          </ul>
+
+
+          {/* not visible in gatsby build */}
+          {close}
+          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
+            ← Back
+          </div> */}
+        </article>
+        <article
+          id="two"
+          className={`${this.props.article === 'two' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{
+            display: 'none',
+            height: '90vh',
+            overflow: 'auto',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
+        >
+          <h2 className="major">Challenge TWO</h2>
+          <span className="image main">
+            <img src={JSONData.WorkImage} alt="" />
+          </span>
+
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+            {JSONData.WorkContent}
+          </div>
+          <br />
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+
+          </div>
+
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+
+    This PunkHunt challege will be announced ~ April 14, 2021.
+
+
+          </div>
+
+
+          {/* not visible in gatsby build */}
+          {close}
+          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
+            ← Back
+          </div> */}
+        </article>
+        <article
+          id="three"
+          className={`${this.props.article === 'three' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{
+            display: 'none',
+            height: '90vh',
+            overflow: 'auto',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
+        >
+          <h2 className="major">Challenge Three</h2>
+          <span className="image main">
+            <img src={JSONData.WorkImage} alt="" />
+          </span>
+
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+            {JSONData.WorkContent}
+          </div>
+          <br />
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+
+          </div>
+
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+
+    This PunkHunt challege will be announced ~April 17, 2021.
+
+
+          </div>
+
+
+          {/* not visible in gatsby build */}
+          {close}
+          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
+            ← Back
+          </div> */}
+        </article>
+        <article
+          id="four"
+          className={`${this.props.article === 'four' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{
+            display: 'none',
+            height: '90vh',
+            overflow: 'auto',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
+        >
+          <h2 className="major">Challenge Four</h2>
+          <span className="image main">
+            <img src={JSONData.WorkImage} alt="" />
+          </span>
+
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+            {JSONData.WorkContent}
+          </div>
+          <br />
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+
+          </div>
+
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+
+    This PunkHunt challege will be announced ~April 20, 2021.
+
+
+          </div>
+
+
+          {/* not visible in gatsby build */}
+          {close}
+          {/* <div style={closeStyle} onClick={() => this.props.onCloseArticle()}>
+            ← Back
+          </div> */}
+        </article>
+        <article
+          id="five"
+          className={`${this.props.article === 'five' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{
+            display: 'none',
+            height: '90vh',
+            overflow: 'auto',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none',
+          }}
+        >
+          <h2 className="major">Challenge Five</h2>
+          <span className="image main">
+            <img src={JSONData.WorkImage} alt="" />
+          </span>
+
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+            {JSONData.WorkContent}
+          </div>
+          <br />
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+
+          </div>
+
+          <div
+            style={{
+
+              fontWeight: '400',
+              fontSize: 'medium',
+              lineHeight: '1.5',
+            }}
+          >
+
+    This PunkHunt challege will be announced ~April 23, 2021.
+
+
+          </div>
+
 
           {/* not visible in gatsby build */}
           {close}
@@ -174,11 +406,11 @@ class Main extends React.Component {
               }}
               className="major"
             >
-              Talks
+              This
             </h2>
             <div
               style={{
-                fontFamily: 'Open Sans, sans-serif',
+
                 fontWeight: '400',
                 fontSize: 'medium',
                 lineHeight: '1.5',
@@ -189,7 +421,7 @@ class Main extends React.Component {
             <br />
             <div
               style={{
-                fontFamily: 'Open Sans, sans-serif',
+
                 fontWeight: '400',
                 fontSize: 'medium',
                 lineHeight: '1.5',
@@ -251,7 +483,7 @@ class Main extends React.Component {
             <h2 style={{ fontWeight: '700' }}>Blogs</h2>
             <div
               style={{
-                fontFamily: 'Open Sans, sans-serif',
+
                 fontWeight: '400',
                 fontSize: 'medium',
                 lineHeight: '1.5',
@@ -287,8 +519,8 @@ class Main extends React.Component {
           </article>
         )}
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="what?"
+          className={`${this.props.article === 'this' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
@@ -296,7 +528,7 @@ class Main extends React.Component {
           <h2 className="major"> CV </h2>
           <div
             style={{
-              fontFamily: 'Open Sans, sans-serif',
+
               fontWeight: '400',
               fontSize: 'large',
               lineHeight: '1.9',
@@ -309,7 +541,7 @@ class Main extends React.Component {
           <div style={{ display: 'flex', justifyContent: 'space-around' }}>
             <a
               style={{
-                fontFamily: 'Open Sans, sans-serif',
+
                 fontWeight: '400',
                 fontSize: 'large',
                 lineHeight: '1.5',
@@ -321,7 +553,7 @@ class Main extends React.Component {
             </a>
             <a
               style={{
-                fontFamily: 'Open Sans, sans-serif',
+
                 fontWeight: '400',
                 fontSize: 'large',
                 lineHeight: '1.5',
