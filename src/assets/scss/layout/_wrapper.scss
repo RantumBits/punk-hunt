@@ -6,6 +6,10 @@
 
 /* Wrapper */
 
+article#intro {
+    font-family: monospace;
+}
+
 #wrapper {
   @include vendor('display', 'flex');
   @include vendor('flex-direction', 'column');
@@ -29,15 +33,15 @@
   }
 
   @include breakpoint(xlarge) {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
   }
 
   @include breakpoint(small) {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
 
   @include breakpoint(xsmall) {
-    padding: 1rem;
+    padding: 0rem;
   }
 
   &.page {

@@ -1,18 +1,21 @@
 {
   "Title": "Punk Hunt | Find them all",
-  "Name": "Punk Hunt",
+  "Name": "Wanted",
   "Description": [
-    "Find them all",
-    "Pixelated, a month-long, city-wide public art exhibition across billboards and bus shelters in Miami, FL."
+    "Have you seen these Punks?"
+
 
   ],
-  "MainImage": "https://www.larvalabs.com/public/images/cryptopunks/punk2460.png",
+  "Punk2": "https://www.larvalabs.com/public/images/cryptopunks/punk2460.png",
+  "Punk1": "https://www.larvalabs.com/public/images/cryptopunks/punk1629.png",
+  "Punk3": "https://www.larvalabs.com/public/images/cryptopunks/punk8219.png",
+  "Punk4": "https://www.larvalabs.com/public/images/cryptopunks/punk8348.png",
   "BackgroundURL": "",
 
   "AboutImage": "https://cdn.decrypt.co/resize/1400/wp-content/uploads/2021/04/CryptoPunks-gID_2.png",
   "AboutContent": [
-    "As part of the ‘Pixelated’ exhibition by SaveArtSpace, CryptoPunks will be displayed on 96 billboards and bus shelters across Miami. The exhibition will last for one month.’c starting from April 12th.",
-    "Get a chance to win 0.5 ETH, while CryptoPunks  are taking over billboards and bus shelters.",
+    "As part of the ‘Pixelated’ exhibition by SaveArtSpace, CryptoPunks will be displayed on 96 billboards and bus shelters across Miami. The exhibition will last for one month beginning April 12th.",
+    "Get a chance to win 0.5 ETH, while CryptoPunks are taking over billboards and bus shelters.",
     "Rules are simple:",
     "Find one of those four punks on billboards or bus stops across Miami:",
     "#1629 @ClaireSilver12 | #8219 @gmoneyNFT | #8348 @seedphrase  | #2460 @niftynaut",
@@ -29,7 +32,7 @@
     "As part of the ‘Pixelated’ exhibition by SaveArtSpace, CryptoPunks will be displayed on 96 billboards and bus shelters across Miami. The exhibition will last for one month.’c starting from April 12th.",
     "Get a chance to win 0.5 ETH, while CryptoPunks  are taking over billboards and bus shelters.",
     "Rules are simple:",
-  
+
     "Find one of those four punks on billboards or bus stops across Miami:",
     " | #8219 @gmoneyNFT",
 "#8348 @seedphrase  | #2460 @niftynaut",

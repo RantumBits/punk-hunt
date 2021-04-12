@@ -5,7 +5,7 @@ const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
 
         <p className="copyright">
-         🛠️ RantumBits // NiftyNaut
+        🛠️ <a href="https://twitter.com/RantumBits">RantumBits</a> @ <a href="https://ecomloop.com">ecomloop</a>
         <br/>
         Not affiliated with LarvaLabs
         </p>

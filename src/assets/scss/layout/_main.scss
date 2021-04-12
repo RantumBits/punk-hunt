@@ -6,6 +6,8 @@
 
 /* Main */
 
+
+
 #main {
   @include vendor('flex-grow', '1');
   @include vendor('flex-shrink', '1');
@@ -84,6 +86,7 @@
         background-size: 20px 20px;
         background-repeat: no-repeat;
       }
+    
 
       &:hover {
         &:before {
