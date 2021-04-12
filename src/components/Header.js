@@ -68,7 +68,7 @@ const Header = props => (
               fontWeight: '200',
             }}
           >
-            What is Punk Hunt?
+            Challenge Details
           </button>
         </li>
 
@@ -87,32 +87,14 @@ const Header = props => (
                   'margin-top': '1em',
                 }}
               >
-              <p>CryptoPunks are taking over the billboards of Miami. Here's your chance to get involved.</p>
-                <p>Find them and win a prize. To win, post the most selfies on Twitter with you and Cryptopunks on billboards and bus stops across the City. Use both hashtags #punkhunt and #cryptopunks. Good luck.</p>
+
               </div>
 
 
         </div>
           <br/>
 
-        <ul>
-
-
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('work')
-            }}
-            style={{
-              fontFamily: 'Fira Mono, monospace',
-              fontWeight: '200',
-            }}
-          >
-            Challenge Details
-          </button>
-        </li>
-
-      </ul>
+      
     </nav>
 
 
