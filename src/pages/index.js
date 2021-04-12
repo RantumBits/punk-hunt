@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
-import Animation from '../components/Animation'
+
 import JSONData from '../content/mycontent.json'
 
 class IndexPage extends React.Component {
@@ -99,10 +99,7 @@ class IndexPage extends React.Component {
   render() {
     let imageOrCanvas = (
       <div id="bgcanvas">
-        <Animation
-          width={this.state.width}
-          height={this.state.height}
-        ></Animation>
+        
       </div>
     )
 
