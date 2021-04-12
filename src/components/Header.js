@@ -23,31 +23,20 @@ const Header = props => (
         >
           {JSONData.Name}
         </h2>
+        <h3
+        style={{
+          fontFamily: 'Montserrat, sans-serif',
+          fontWeight: '600',
+          color: '#ff04b4',
 
-        <p>
-          {JSONData.Description.map(item => {
-            return (
-              <div
-                style={{
-                  fontFamily: 'Montserrat, sans-serif',
-                  fontWeight: '600',
-                  color: '#ff04b4',
+          width: 'fit-content',
+          margin: '1em auto',
 
-                  width: 'fit-content',
-                  margin: '1em auto',
-
-                  'font-size': '1.2em',
-                  padding: '0.4em',
-                  'text-transform': 'uppercase',
-                }}
-              >
-                {item}
-              </div>
+          'font-size': '1em',
+          padding: '0.4em',
+        }} >HAVE YOU SEEN THESE PUNKS?</h3>
 
 
-            )
-          })}
-        </p>
         <div className="flexbox">
           <div className="punkDetails">
         <div className="logo backdrop-blur">
@@ -112,6 +101,7 @@ const Header = props => (
         </p>
         </div>
 </div>
+
 <div className="flexbox">
         <div className="punkDetails">
         <div className="logo backdrop-blur">
