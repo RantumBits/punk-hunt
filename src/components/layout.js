@@ -36,6 +36,7 @@ const Layout = ({ children, location }) => {
             siteMetadata {
               title
               description
+              image
             }
           }
         }
@@ -46,7 +47,12 @@ const Layout = ({ children, location }) => {
             title={JSONData.Title}
             meta={[
               { name: 'description', content: 'CryptoPunks are taking over the billboards of Miami. Here is your chance to get involved.' },
-            
+              { name: 'og:description', content: 'CryptoPunks are taking over the billboards of Miami. Here is your chance to get involved.' },
+              { name: 'og:title', content: 'PunkHunt | Find them all | CryptoPunks on Billboards' },
+              { name: 'image',  content: "https://punkhunt.com/images/punkhunt_cryptopunks_miami_billboard.png" },
+              { name: 'og:image',  content: "/images/punkhunt_cryptopunks_miami_billboard.png" },
+              { name: 'og:type',  content: "website" }
+
             ]}
           >
             <html lang="en" />

@@ -222,6 +222,19 @@ const Header = props => (
 
         </ul>
 
+        <div
+          style={{
+            fontFamily: 'Fira Mono, monospace',
+            fontWeight: '100',
+            fontSize: 'small',
+            letterSpacing: '1px',
+            margin: '1em 0',
+          }}
+        ><br/>
+          <p>See recent <a href="/tweets">#PunkHunt tweets</a></p>
+
+        </div>
+
         <div>
 
               <div
