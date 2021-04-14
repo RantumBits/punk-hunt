@@ -49,8 +49,8 @@ const Layout = ({ children, location }) => {
               { name: 'description', content: 'CryptoPunks are taking over the billboards of Miami. Here is your chance to get involved in the PunkHunt.' },
               { name: 'og:description', content: 'CryptoPunks are taking over the billboards of Miami. Here is your chance to get involved in the PunkHunt.' },
               { name: 'og:title', content: 'PunkHunt | Find them all | CryptoPunks on Billboards' },
-              { name: 'image',  content: '/images/punkhunt_cryptopunks_miami_billboard.png' },
-              { name: 'og:image',  content: '/images/punkhunt_cryptopunks_miami_billboard.png' },
+              { name: 'image',  content: 'https://github.com/ecomloop/punk-hunt3/blob/master/images/punkhunt_cryptopunks_miami_billboard.png?raw=true' },
+              { name: 'og:image',  content: 'https://github.com/ecomloop/punk-hunt3/blob/master/images/punkhunt_cryptopunks_miami_billboard.png?raw=true' },
               { name: 'og:type',  content: 'website' }
 
             ]}
