@@ -46,12 +46,12 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={JSONData.Title}
             meta={[
-              { name: 'description', content: 'CryptoPunks are taking over the billboards of Miami. Here is your chance to get involved.' },
-              { name: 'og:description', content: 'CryptoPunks are taking over the billboards of Miami. Here is your chance to get involved.' },
+              { name: 'description', content: 'CryptoPunks are taking over the billboards of Miami. Here is your chance to get involved in the PunkHunt.' },
+              { name: 'og:description', content: 'CryptoPunks are taking over the billboards of Miami. Here is your chance to get involved in the PunkHunt.' },
               { name: 'og:title', content: 'PunkHunt | Find them all | CryptoPunks on Billboards' },
-              { name: 'image',  content: "https://punkhunt.com/images/punkhunt_cryptopunks_miami_billboard.png" },
-              { name: 'og:image',  content: "/images/punkhunt_cryptopunks_miami_billboard.png" },
-              { name: 'og:type',  content: "website" }
+              { name: 'image',  content: '/images/punkhunt_cryptopunks_miami_billboard.png' },
+              { name: 'og:image',  content: '/images/punkhunt_cryptopunks_miami_billboard.png' },
+              { name: 'og:type',  content: 'website' }
 
             ]}
           >
