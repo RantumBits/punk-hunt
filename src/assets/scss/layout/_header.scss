@@ -8,11 +8,11 @@
 
 .billboard{
   background-image: url('https://github.com/ecomloop/punk-hunt3/blob/master/images/punkhunt_cryptopunks_miami_billboard.png?raw=true');
-  background-size: contain;
-  height: 250px;
+  background-size: cover;
+  max-height: 250px;
   background-repeat: no-repeat;
   padding-top: 15%;
-
+  min-height: 180px;
 }
 
 
@@ -159,7 +159,7 @@
       );
       @include vendor('transition-delay', '0.25s');
       padding: 1rem 2rem;
-      max-height: 40rem;
+      max-height: 50rem;
       overflow: hidden;
 
       > :last-child {
@@ -182,7 +182,7 @@
       margin-bottom: 0;
       list-style: none;
       // padding-left: 0;
-      border: solid _size(border-width) _palette(border);
+      //border: solid _size(border-width) _palette(border);
       border-radius: _size(border-radius);
 
       li {
